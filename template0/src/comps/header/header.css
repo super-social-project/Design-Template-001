@@ -2,4 +2,6 @@
     display: flex;
     width: 100vw;
     justify-content: space-between;
+    background-color: #333;
+    color: #ccc;
 }

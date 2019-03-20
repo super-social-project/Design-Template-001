@@ -1,0 +1,21 @@
+.subheader {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    margin-top: 25px;
+    background-color: #333;
+    color: #ccc;
+    font-size: 1.5rem;
+}
+.subheader .container {
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+}
+.subheader .container .group {
+    display: flex;
+    align-items: center;
+}
+.subheader .container .group > * {
+    margin: 0 5px;
+}
