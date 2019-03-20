@@ -1,0 +1,42 @@
+.topic {
+    display: flex;
+    padding: 10px 0;
+    margin: 10px 0;
+    width: 80%;
+    background-color: #fff;
+}
+.topic .points {
+    /* width: fit-content; */
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.topic .content {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+.topic .content header {
+    display: flex;
+    color: #666;
+    height: 25px;
+    align-items: center;
+}
+.topic .content header pre {
+    margin-right: 15px;
+}
+.topic .content .text {
+    padding: 10px 0;
+    font-size: 1.75rem;
+}
+.topic .content footer {
+    display: flex;
+    height: 25px;
+    align-items: center;
+}
+.topic .content footer pre {
+    margin-right: 15px;
+}
