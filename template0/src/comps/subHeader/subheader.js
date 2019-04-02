@@ -9,7 +9,6 @@ const SubHeader = () =>
                 <button>v1</button>
                 <button>v2</button>
                 <button>v3</button>
-                <button>Acnt</button>
             </div>
             <div className='group'>
                 <pre>SORT</pre>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Header from './comps/header/header'
-import SubHeader from './comps/subHeader/subheader'
-import Topic from './comps/topic/topic'
+// import Header from './comps/header/header'
+// import SubHeader from './comps/subHeader/subheader'
+// import Topic from './comps/topic/topic'
 import './reset.css';
 import './index.css'
 
@@ -15,9 +15,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
-        <SubHeader />
-        {this.state.topics.map((_,i) => <Topic key={i}/>)}
+        <h1>Nope</h1>
       </div>
     );
   }
